@@ -1,69 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Sofia&display=swap');
 
-body{
+body {
   position: relative;
 }
-.main-font{
-    font-family: 'Sofia', serif, system-ui;
+
+.main-font {
+  font-family: 'Sofia', serif, system-ui;
 }
-.port-hero{
-    height: 530px;
-    background : linear-gradient(90deg, rgba(46, 79, 97, 1) 11%, rgba(75, 99, 107, 1) 52%, rgba(103, 98, 89, 1) 93%);
+
+.port-hero {
+  height: 530px;
+  background: linear-gradient(90deg, rgba(46, 79, 97, 1) 11%, rgba(75, 99, 107, 1) 52%, rgba(103, 98, 89, 1) 93%);
 }
-.second-font{
-    font-family: 'Raleway', arial, sans-serif;
+
+.second-font {
+  font-family: 'Raleway', arial, sans-serif;
 
 }
+
 .fade-in-text {
-    animation: fadeIn 7s;
-  }
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  .col-7 .container-fluid>img{
-    width: 62%;
-  }
-  #welcome{
-    height: 120px;
-  }
-  .head-color{
-    color: limegreen;
-  }
-#about-font{
-    font-weight: 400;
-    font-size: 20px;
-    color: black;
+  animation: fadeIn 7s;
 }
-.bootstarp-color{
-    color: #712cf9;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
-#copyright-bg{
+
+.col-7 .container-fluid>img {
+  width: 62%;
+}
+
+#welcome {
+  height: 120px;
+}
+
+.head-color {
+  color: limegreen;
+}
+
+#about-font {
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
+.bootstarp-color {
+  color: #712cf9;
+}
+
+#copyright-bg {
   background-color: #3a3c3f;
-  
+
 }
-.container-fluid .col-6 .text-center:hover{
+
+.container-fluid .col-12 .text-center:hover {
   box-shadow: 20px 20px 10px grey;
-	cursor: pointer;
-  transform: scale(1.10);
+  cursor: pointer;
+  transform: scale(1.30);
 }
-.col-5 .alert:hover{
+
+.col-5 .alert:hover {
   box-shadow: 20px 20px 10px grey;
-	cursor: pointer;
+  cursor: pointer;
   transform: scale(1.20);
-	
+
 }
-.fs-res{
+
+.fs-res {
   font-size: 2vw;
 }
-.fs-res1{
+
+.fs-res1 {
   font-size: 1.3vw;
-    }
-.responsive-font{
-      font-size: 2.3vw;
-      font-weight: 900;
-   }
-.fs-btn{
+}
+
+
+.fs-btn {
   font-size: 1.5vw;
 }
