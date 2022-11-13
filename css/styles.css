@@ -66,7 +66,7 @@ body {
   transform: scale(1.30);
 }
 
-.col-12 .alert:hover {
+.col-12 .text-decoration-none .alert:hover {
   box-shadow: 20px 20px 10px grey;
   cursor: pointer;
   transform: scale(1.20);
