@@ -1,402 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdulrahman Hasan Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
-        type='text/css'>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Abdulrahman Hasan | Full-Stack Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
-
-<body data-bs-spy="scroll" data-bs-target="#navId">
-    <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top bg-opacity-75 ps-4" id="navId">
-            <a class="navbar-brand main-font">Abdulrahman Hasan</a>
-            <div class="navbar-expand pe-3" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">PROJECTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT ME</a>
-                    </li>
-                </ul>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">
+            <div class="brand-name">
+                <span class="navbar-brand main-font">Abdulrahman Hasan</span>
             </div>
-        </nav>
-        <div class="port-hero w-100 m-auto row" id="home">
-            <div class="col-5 mt-5">
-
-                <div class="main-font mt-5 text-white text-center">
-                    <br><br>
-                    <h1>Creative
-                        <br>
-                        Software Developer
-                    </h1>
-                    <br>
-                    <p class="second-font fs-5 fade-in-text fw-semibold mb-5">Empowering You to Design Your Future!</p>
-                    <div><a href="#contact" class="btn btn-success second-font fs-btn">CONNECT WITH ME</a></div>
-                </div>
-
-            </div>
-            <div class="col-7 mt-5 d-flex justify-content-center align-items-center">
-                <div class="container-fluid d-flex justify-content-center mt-4">
-                    <img class=".img-fluid img-thumbnail" src="images/pho1.png" alt="my-photo">
-                </div>
-            </div>
+            <span class="brand-title ">Full-Stack Engineer</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div id="welcome">
-            <h2 class="text-center main-font display-5 mt-3">welcome to my space!</h2>
-        </div>
-    </header>
-    <main>
-        <!--about me section-->
-        <section class="bg-secondary bg-opacity-10 pb-5" id="about">
-            <div class="main-font">
-                <p class="display-4 head-color text-center pt-5">About me</p>
-            </div>
-            <hr class="w-50 m-auto">
+    </div>
+</nav>
 
-            <div class=" container-lg row mt-5">
-                <div class="col-2 col-md-3 col-lg-4 mt-5 border-bottom border-5 pb-5">
-
-                    <div><img src="images/hi.gif" alt="hi" class="img-fluid img-thumbnail w-75 mx-auto d-block shadow">
+<main>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <span class="badge bg-success mb-3">Available for opportunities</span>
+                    <h1 class="display-3 fw-bold mb-3 reveal">Full-Stack Software Engineer</h1>
+                    <p class="lead mb-4 reveal">Building secure and scalable web applications with modern technologies.</p>
+                    <div class="reveal">
+                        <a href="#contact" class="btn btn-success me-3">Get in Touch</a>
+                        <a href="#projects" class="btn btn-outline-dark">View Projects</a>
                     </div>
-                    <div class="mt-5 pt-5"><img src="images/work.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="mt-5 pt-5"><img src="images/ok.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-lg-none mt-5 pt-5"><img src="images/door.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-md-none d-lg-none mt-5 pt-5"><img src="images/kiss.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-lg-none mt-5 pt-5"><img src="images/ballon.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-md-none d-lg-none mt-5 pt-5"><img src="images/clap.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-md-none d-lg-none mt-5 pt-5"><img src="images/oh-yes.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-md-none d-lg-none mt-5 pt-5"><img src="images/money.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="d-md-none d-lg-none mt-5 pt-5"><img src="images/think.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-                    <div class="mt-5 pt-5"><img src="images/thanks.gif" alt="hi"
-                            class="img-fluid img-thumbnail w-75 mx-auto d-block shadow"></div>
-
-
                 </div>
-                <div class="col-10 col-md-9 col-lg-8 border-start border-5">
-                    <div class="mt-5 ms-md-2 ms-lg-5 second-font" id="about-font">
-                        <h5 class="head-color fw-bold pb-3">Personal Overview</h5>
-                        <p>I am Abdulrahman Hasan,I am 23 years old , Jordanien from Palestine origins.<br>I was born
-                            and raised in Saudi Arabia
-                            I have studied my primary school in Saudi Arabia and then moved back to Jordan to continue
-                            my studies high school and University
+                <div class="col-lg-6 text-center ">
+                    <img src="images/pho1.png" alt="Profile" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
 
-                            <b>Now I live mainly in Jordan .</b><br><br>
-                            I am a fan of Anime, admire living new experiences and my favourit sport play Chess. But
-                            what i love the most to be one of the contributors to develop the world in the technology
-                            and innovation fields.
-                        </p>
-
-                        <h5 class="head-color fw-bold pb-3 pt-2">Background</h5>
-                        <p>My passion for programming started since I was a younge boy, So I decided to follow my
-                            passion and develop it and started studying <b>Computer Science</b> in 2018 <b>at
-                                Al-Zaytoonah Private University</b> and graduated with an <strong>honors degree with a
-                                GPA of 92.4 % </strong>in 2022.</p>
-
-                        <h5 class="head-color fw-bold pb-3 pt-2">My Experience</h5>
-                        <p>I have worked on many projects during my university period
-                            You can see them in the <a href="#projects">projects section</a></p>
-
-                        <h5 class="head-color fw-bold pb-3">My Skills</h5>
-                        <p><span class="text-muted">Technical Skills :</span><br>
-                        <div class="row mb-1">
-                            <div class="col-3">
-                                <i class="fab fa-html5 display-1 text-danger"></i>
-                            </div>
-                            <div class="col-3 display-1 text-primary"> <i class="fab fa-css3-alt"></i></div>
-                            <div class="col-3 display-1 text-warning"><i class="fab fa-js"></i></div>
-                            <div class="col-3 display-1 text-secondary"><i class="fas fa-database"></i></div>
-                            <div class="col-3 display-1 bootstarp-color"><i class="fab fa-bootstrap "></i></div>
-                            <div class="col-3 display-1 text-dark"><i class="fa-brands fa-java "></i></div>
-                            <div class="col-3 display-1 text-primary opacity-50"><i class="fa-brands fa-php"></i></div>
-                            <div class="col-3 display-1 text-success"><i class="fa-brands fa-android"></i></div>
+    <section id="about" class="section-padding reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="lead">Mid-Level Full-Stack Software Engineer with 3 years of experience building secure and scalable web applications.</p>
+                    <p>Currently working at OpenSooq, one of the largest online classifieds platforms in MENA, where I develop high-impact internal systems and integrate enterprise solutions.</p>
+                    <div class="mt-4">
+                        <a href="https://linkedin.com/in/abdulrahmanhasan" class="btn btn-outline-primary me-2" target="_blank">
+                            <i class="fab fa-linkedin me-2"></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/abdulrahmanhusam" class="btn btn-outline-dark" target="_blank">
+                            <i class="fab fa-github me-2"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Quick Info</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-map-marker-alt me-2 text-success"></i>
+                                    Amman, Jordan
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-envelope me-2 text-success"></i>
+                                    Abdulrahman.H.Hasan@gmail.com
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-phone me-2 text-success"></i>
+                                    +962 78 1130568
+                                </li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li>HTML5, CSS3, Java, JavaScript ,Bootstrap, Asp.net MVC, Python, PHP, SQL, Firebase.
-                            </li>
-                            <li>Problem-solving skills.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                            </li>
-                            <li>Good knowledge of editing software: Adobe Premiere and After Effects.
-
-                            </li>
-
+    <section id="experience" class="section-padding bg-light reveal">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item mb-5">
+                    <div class="timeline-content">
+                        <h4>Software Engineer</h4>
+                        <h5>OpenSooq</h5>
+                        <span class="badge bg-success">Mar 2023 - Present</span>
+                        <ul class="mt-3">
+                            <li>Design and maintain complex backend workflows using PHP (Yii2 framework)</li>
+                            <li>Engineer RESTful APIs and integrate Apache Solr for high-speed search</li>
+                            <li>Lead backend integration with Zendesk and Avaya</li>
+                            <li>Develop frontend UI components using modern web technologies</li>
                         </ul>
-
-                        </p>
-
-                        <h5 class="head-color fw-bold pb-3">Why Me?</h5>
-                        <p>Firstly I really love what I am doing, I can do the work and deliver exceptional results to
-
-                            your company, I will fit in beautifully and be a great addition to the team.<br>
-                            I am a self-motivated, fast-learner, hard-worker, perfect team-player, and I am fully ready
-                            to take on all the responsibilities assigned to me on my position, also I am committed to
-                            work and willing to travel abroad,
-                            I possess a combination of skills and experience that make me stand out.<br>
-
-                            <b>So, Hiring me will have a significant impact on the progress of your company and
-                                achieving its goals.</b>
-                        </p>
-
-
-
-                    </div>
-
-
-
-                </div>
-            </div>
-        </section>
-        <!--my projects section-->
-        <section class="mb-5 pb-5" id="projects">
-            <div class="main-font">
-                <p class="display-4 head-color text-center pt-5">My projects</p>
-            </div>
-            <hr class="w-50 m-auto">
-            <p class="mt-5 mb-5 text-center second-font fs-3 fw-semibold">Let's! take a moment to see some of the
-                projects I have built.</p>
-            <div class="container pt-5">
-                <div class="row">
-                    <div class="col-12 col-lg-6 mt-4">
-                        <div class="card w-75 m-auto">
-                            <img src="images/sm.jpg" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Smart Guide</h5>
-                                <p class="card-text">Android application contains tourist places added by the admin in
-                                    addition to many other features for the user and admin (such as two-way search,
-                                    favorite places and profile modification, etc).</p>
-                                <a href="https://github.com/abdulrahmanhusam/Smart_Guide"
-                                    class="btn btn-success float-end mt-3">VIEW PROJECT</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 mt-4">
-                        <div class="card w-75 m-auto">
-                            <img src="images/library.jpg" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Online Library</h5>
-                                <p class="card-text">front end design for library where user can view books, search
-                                    about specific book,contact with the library,and add book to the cart </p>
-                                <a href="https://github.com/abdulrahmanhusam/online-library"
-                                    class="btn btn-success float-end mt-3">VIEW PROJECT</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6  mt-4">
-                        <div class="card w-75 m-auto">
-                            <img src="images/fly.jpg" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Flyone</h5>
-                                <p class="card-text">An Android application based on the airline ticket reservation
-                                    system. The user can choose the departure and arrival area payment method,date and
-                                    time,number of passengers.</p>
-                                <a href="https://github.com/abdulrahmanhusam/Flyone"
-                                    class="btn btn-success float-end mt-3">VIEW PROJECT</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6  mt-4">
-                        <div class="card w-75 m-auto">
-                            <img src="images/rent.jpg" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Car Rental</h5>
-                                <p class="card-text">Online Car Rental System using PHP and MySQL can book a car for
-                                    trip, marriage, business meeting, office to home, home to office, home to a market
-                                    where ever they want to travel as simple as that.</p>
-                                <a href="#" class="btn btn-success float-end mt-3">VIEW PROJECT</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6  mt-4">
-                        <div class="card w-75 m-auto">
-                            <img src="images/face.png" class="card-img-top" alt="project-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Stay Safe</h5>
-                                <p class="card-text">Face mask detection system capable to detect if a person is wearing
-                                    a facemask, or not wearing a facemask, and will issue an alert if the person is not
-                                    wearing a face mask. The algorithm used in the project to achieve that objective is
-                                    MobileNetV2 and CNN model.</p>
-                                <a href="#" class="btn btn-success float-end mt-2">VIEW PROJECT</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </section>
-        <!--Services section-->
-        <section class="bg-secondary bg-opacity-10 mb-2 pb-5 second-font" id="services">
-            <div class="main-font">
-                <p class="display-4 head-color text-center pt-5">Services I Provide</p>
-            </div>
-            <hr class="w-50 m-auto">
-            <div class="container-fluid row mt-5 ">
-
-                <div class="col-12 col-lg-6">
-
-                    <div class="text-center border border-5 border-white p-5 m-5">
-                        <h2 class="fw-bold pb-4">Web Development</h2>
-                        <img class="w-50" src="images/back development.png">
-                        <p class=" pt-5 pb-4">Comprehensive and Customized website design & developent solutions
-                            for
-                            your business</p>
-                        <a href="#!" class="btn btn-success">FIND OUT MORE</a>
-                    </div>
-
-                </div>
-                <div class="col-12 col-lg-6 ">
-                    <div class="text-center border border-5 border-white p-5 m-5">
-                        <h2 class="fw-bold pb-4">Web Design</h2>
-                        <img class="w-50" src="images/development front.png">
-                        <p class=" pt-5 pb-4">Comprehensive and Customized website design & developent solutions
-                            for
-                            your business</p>
-                        <a href="#!" class="btn btn-success">FIND OUT MORE</a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 ">
-                    <div class="text-center border border-5 border-white p-5 m-5">
-                        <h2 class="fw-bold pb-4">Mobile Application Development</h2>
-                        <img class="w-50" src="images/app.png">
-                        <p class="pt-5 pb-4">Comprehensive and Customized website design & developent solutions
-                            for
-                            your business</p>
-                        <a href="#!" class="btn btn-success">FIND OUT MORE</a>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Junior Software Developer</h4>
+                        <h5>Freelance / Personal Projects</h5>
+                        <span class="badge bg-success">Jul 2022 - Mar 2023</span>
+                        <ul class="mt-3">
+                            <li>Built full-stack LAMP projects including POS and CMS platforms</li>
+                            <li>Developed responsive UIs and maintained clean codebases</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--Contact me section-->
-        <section class="mb-5 pb-5" id="contact">
-            <div class="main-font">
-                <p class="display-4 head-color text-center pt-5">Contact Me</p>
-            </div>
-            <hr class="w-50 m-auto">
-
-            <div class="container-fluid row">
-
-                <div class="col-12 col-lg-7 mt-5 mb-3">
-                    <div class="w-75 border border-3 shadow p-3 mt-4 m-auto">
-                        <form action="mailto:abdulrahmanhusam11@gmail.com">
-                            <div class="form-group mt-2">
-                                <label for="formGroupExampleInput" class="pb-2">Full Name:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="exampleFormControlInput1" class="pb-2">Email Address:</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="form-group mt-3">
-                                <label for="exampleFormControlTextarea1" class="pb-2">Your Message:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                    placeholder="e.g. I need your help to create a website"></textarea>
-                            </div>
-
-                            <div class="form-group mt-4 pb-2 text-end">
-                                <button type="submit" class="btn btn-success btn-block padd">Send Message</button>
-
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5 mt-4 m-lg-auto">
-
-                    <a href="tel://00962781130568" class="text-decoration-none">
-                        <div class="alert alert-info w-75 m-auto">
-                            <span class="fa fa-phone pe-2"></span><span>+962-781130568</span>
-                        </div>
-                    </a>
-                    <a href="mailto:abdulrahmanhusam11@gmail.com" class="text-decoration-none">
-                        <div class="alert alert-info w-75 mt-4 m-auto">
-                            <span class="fa fa-paper-plane pe-2"></span><span>abdulrahmanhusam11@gmail.com</span>
-
-                        </div>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container pt-4 pb-5">
-            <!-- Section: Social media -->
-            <section>
-                <!-- Facebook -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
-                    href="https://web.facebook.com/abood.husam.50/" target="_blank" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
-                    role="button"><i class="fab fa-twitter"></i></a>
-
-                <!-- Instagram -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #4DCF50;"
-                    href="https://wa.link/sq41ws" target="_blank" role="button"><i class="fab fa-whatsapp"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
-                    href="https://www.linkedin.com/in/abdulrahmanhasan/" target="_blank" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <!-- Github -->
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
-                    href="https://github.com/abdulrahmanhusam" target="_blank" role="button"><i
-                        class="fab fa-github"></i></a>
-            </section>
-            <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
-        <!-- Copyright -->
-        <div class="text-center p-3" id="copyright-bg">
-            © 2022 Copyright:
-            <a class="text-white" href="#contact">Abdulrahman Hasan</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <section id="skills" class="section-padding reveal">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h4>Backend</h4>
+                        <ul class="skill-list">
+                            <li>PHP (Yii2, Laravel)</li>
+                            <li>Node.js</li>
+                            <li>REST APIs</li>
+                            <li>SQL/MySQL</li>
+                            <li>Apache Solr</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h4>Frontend</h4>
+                        <ul class="skill-list">
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>AJAX/PJAX</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h4>Tools & Others</h4>
+                        <ul class="skill-list">
+                            <li>Git/GitHub</li>
+                            <li>Linux</li>
+                            <li>Agile/Scrum</li>
+                            <li>Problem Solving</li>
+                            <li>Team Collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding bg-light reveal">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/OS.png" alt="OpenSooq Internal Systems">
+                            <div class="project-overlay">
+                                <div class="project-type">Web Application</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>OpenSooq Internal Systems</h4>
+                            <p>Complex backend system for content moderation, listing management, and sales automation using Yii2 framework.</p>
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>Yii2</span>
+                                <span>MySQL</span>
+                                <span>ClickHouse</span>
+                                <span>REST API</span>
+                                <span>Snowflake</span>
+                                <span>NodeJs</span>
+                                <span>Solr</span>
+                                <span>RBAC</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/pos.jpg" alt="POS System">
+                            <div class="project-overlay">
+                                <div class="project-type">Web Application</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Modern POS System</h4>
+                            <p>Point of sale system with inventory management, reporting, and real-time updates using Laravel.</p>
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>Js</span>
+                                <span>MySQL</span>
+                                <span>Apache</span>
+                                <span>RBAC</span>
+                                <span>REST API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-external-link-alt me-2"></i>Demo
+                                </a>
+                                <a href="#" class="btn btn-outline-dark btn-sm">
+                                    <i class="fab fa-github me-2"></i>Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/cms.png" alt="CMS Platform">
+                            <div class="project-overlay">
+                                <div class="project-type">Web Application</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Dynamic CMS Platform</h4>
+                            <p>Content management system with dynamic page builder and media management system.</p>
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>jQuery</span>
+                                <span>Bootstrap</span>
+                                <span>REST API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-external-link-alt me-2"></i>Demo
+                                </a>
+                                <a href="#" class="btn btn-outline-dark btn-sm">
+                                    <i class="fab fa-github me-2"></i>Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding reveal">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <div class="social-links mb-4">
+            <a href="https://linkedin.com/in/abdulrahmanhasan" class="mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/abdulrahmanhusam" class="mx-2"><i class="fab fa-github"></i></a>
+            <a href="mailto:Abdulrahman.H.Hasan@gmail.com" class="mx-2"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 Abdulrahman Hasan. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/app.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+    });
+</script>
 </body>
-
 </html>
