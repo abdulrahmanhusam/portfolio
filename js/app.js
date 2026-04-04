@@ -158,7 +158,22 @@ function setupContactForm() {
 
     form.addEventListener('submit', event => {
         event.preventDefault();
-        feedback.textContent = 'Use the email or LinkedIn links here and I will respond directly.';
-        form.reset();
+        const name = form.querySelector('#name')?.value.trim() ?? '';
+        const email = form.querySelector('#email')?.value.trim() ?? '';
+        const message = form.querySelector('#message')?.value.trim() ?? '';
+
+        const subject = `Portfolio contact from ${name || 'Website visitor'}`;
+        const body = [
+            `Name: ${name}`,
+            `Email: ${email}`,
+            '',
+            'Message:',
+            message
+        ].join('\n');
+
+        const mailtoUrl = `mailto:abdulrahmanhusam11@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        feedback.textContent = 'Opening your email app with your message prefilled.';
+        window.location.href = mailtoUrl;
     });
 }
