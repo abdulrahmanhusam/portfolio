@@ -1,0 +1,5 @@
+# JetBrains IDEs (PhpStorm, IntelliJ, etc.)
+.idea/
+
+# Optional (مفيد)
+*.iml
