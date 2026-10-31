@@ -1,621 +1,384 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<!doctype html>
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
-    <meta name="description" content="Abdulrahman Hasan is a software engineer building scalable platforms, performant backend services, and maintainable user experiences with measurable business impact.">
-    <title>Abdulrahman Hasan | Software Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Abdulrahman Hasan is a software engineer building scalable platforms, performant backend services, and maintainable user experiences with measurable business impact.">
+<meta name="theme-color" content="#1c1d20">
+<meta property="og:title" content="Software Engineer | Abdulrahman Hasan">
+<meta property="og:description" content="Abdulrahman Hasan is a software engineer building scalable platforms, performant backend services, and maintainable user experiences with measurable business impact.">
+<meta property="og:type" content="website">
+<title>Software Engineer | Abdulrahman Hasan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/hero.css">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')==='dark'?'dark':'light'}catch(e){}</script>
+<script src="js/motion.js" defer>
+</script>
+<script src="js/hero.js" defer></script>
+<script src="js/app.js" defer>
+</script>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="90" tabindex="0">
-<div class="site-shell">
-    <nav class="navbar navbar-expand-lg fixed-top" id="siteNavbar">
-        <div class="container">
-            <a class="navbar-brand" href="#home">
-                <span class="brand-kicker">Portfolio</span>
-                <span class="brand-title">Abdulrahman Hasan</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
-                        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color mode">
-                            <i class="fa-solid fa-moon"></i>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body id="top" data-page="index" class="hero-home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<a class="brand hero-code" href="index.html" aria-label="Code by Abdulrahman, home"><span aria-hidden="true">&copy;</span> Code by Abdulrahman</a>
+<nav class="desktop-nav" aria-label="Main navigation">
+<a href="work.html" >Work</a>
+<a href="about.html" >About</a>
+<a href="contact.html" >Contact</a>
+</nav>
+<div class="header-controls">
 
-    <main>
-        <section id="home" class="hero-section">
-            <div class="hero-orb orb-one"></div>
-            <div class="hero-orb orb-two"></div>
-            <div class="container position-relative">
-                <div class="row align-items-center gy-5 min-vh-100">
-                    <div class="col-lg-7">
-                        <div class="hero-copy reveal-up">
-                            <span class="eyebrow">
-                                <span class="status-dot"></span>
-                                Open to engineering teams building scalable products and business-critical platforms
-                            </span>
-                            <h1 class="hero-title">Engineering systems that improve speed, scale, and business execution.</h1>
-                            <p class="hero-subtitle">
-                                Software engineer with 3+ years of delivery across backend services, platform features, and responsive interfaces, with measurable impact in performance, maintainability, and workflow efficiency.
-                            </p>
-                            <div class="d-flex flex-wrap gap-3 hero-actions">
-                                <a href="#projects" class="btn btn-brand btn-lg">View My Work</a>
-                                <a href="#contact" class="btn btn-outline-light btn-lg">Discuss a Role</a>
-                            </div>
-                        </div>
-                        <div class="metrics-grid reveal-up">
-                            <article class="metric-card strong-metric">
-                                <span class="metric-icon"><i class="fa-solid fa-hourglass"></i></span>
-                                <strong class="counter" data-target="3">0</strong>
-                                <p>Years of professional engineering delivery</p>
-                            </article>
-                            <article class="metric-card strong-metric">
-                                <span class="metric-icon"><i class="fa-solid fa-project-diagram"></i></span>
-                                <strong class="counter" data-target="16">0</strong>
-                                <p>Products and platforms shipped</p>
-                            </article>
-                            <article class="metric-card strong-metric">
-                                <span class="metric-icon"><i class="fa-solid fa-chart-line"></i></span>
-                                <strong class="counter" data-target="20">0</strong>
-                                <p>% reduction in employee handling time</p>
-                            </article>
-                            <article class="metric-card strong-metric">
-                                <span class="metric-icon"><i class="fa-solid fa-database"></i></span>
-                                <strong class="counter" data-target="2">0</strong>
-                                <p>Languages used in professional delivery</p>
-                            </article>
-                            <article class="metric-card strong-metric">
-                                <span class="metric-icon"><i class="fa-solid fa-bolt"></i></span>
-                                <strong class="counter" data-target="340">0</strong>
-                                <p>Hours of formal full-stack upskilling</p>
-                            </article>
-                            <article class="metric-card strong-metric">
-                                <span class="metric-icon"><i class="fa-solid fa-code-branch"></i></span>
-                                <strong class="counter" data-target="12">0</strong>
-                                <p>Core technologies used in production</p>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="hero-panel reveal-up">
-                            <div class="hero-image-wrap">
-                                <img src="images/pho1.png" alt="Portrait of Abdulrahman Hasan" class="hero-image" decoding="async" fetchpriority="high">
-                            </div>
-                            <div class="hero-mini-card">
-                                <span class="mini-label">Professional Focus</span>
-                                <strong>Scale, performance, and operational ownership</strong>
-                                <p>Backend services, product features, and responsive interfaces designed to improve usability, maintainability, and execution quality.</p>
-                            </div>
-                            <div class="hero-stack">
-                                <span>PHP</span>
-                                <span>Yii2</span>
-                                <span>Laravel</span>
-                                <span>MySQL</span>
-                                <span>Bootstrap 5</span>
-                                <span>JavaScript</span>
-                                <span>REST APIs</span>
-                                <span>Performance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="section-pad">
-            <div class="container">
-                <div class="section-heading reveal-up">
-                    <span class="section-kicker">About</span>
-                    <h2 class="section-title">A results-driven engineer focused on performance, reliability, and business impact.</h2>
-                </div>
-                <div class="row g-4 align-items-stretch">
-                    <div class="col-lg-7">
-                        <div class="glass-card h-100 reveal-up">
-                            <p class="lead-copy">
-                                I build reliable software that scales cleanly across backend services, user-facing experiences, and business-critical platforms while improving performance, maintainability, and delivery speed.
-                            </p>
-                            <p>
-                                At OpenSooq, I contributed to business-critical engineering initiatives in a high-scale environment, building scalable backend services and responsive internal-facing interfaces while improving maintainability, performance, and workflow efficiency.
-                            </p>
-                            <p class="mb-0">
-                                My background combines practical LAMP delivery, enterprise integrations, and a strong bias toward maintainability, measurable performance, and clear business value.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="info-card h-100 reveal-up">
-                            <h3>Executive Snapshot</h3>
-                            <ul class="profile-list">
-                                <li><i class="fa-solid fa-location-dot"></i><span>Amman, Jordan</span></li>
-                                <li><i class="fa-solid fa-envelope"></i><a href="mailto:Abdulrahman.H.Hasan@gmail.com">Abdulrahman.H.Hasan@gmail.com</a></li>
-                                <li><i class="fa-solid fa-phone"></i><a href="tel:+962781130568">+962 78 1130568</a></li>
-                                <li><i class="fa-brands fa-linkedin-in"></i><a href="https://linkedin.com/in/abdulrahmanhasan" target="_blank" rel="noopener noreferrer">linkedin.com/in/abdulrahmanhasan</a></li>
-                                <li><i class="fa-brands fa-github"></i><a href="https://github.com/abdulrahmanhusam" target="_blank" rel="noopener noreferrer">github.com/abdulrahmanhusam</a></li>
-                            </ul>
-                            <div class="info-pills">
-                                <span>Arabic & English</span>
-                                <span>Cross-Functional Delivery</span>
-                                <span>Execution Under Scale</span>
-                                <span>Ownership</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row g-4 mt-2">
-                    <div class="col-lg-4">
-                        <div class="spotlight-card reveal-up">
-                            <span class="spotlight-icon"><i class="fa-solid fa-graduation-cap"></i></span>
-                            <h3>Education</h3>
-                            <p>Bachelor’s degree in Computer Science, providing the technical foundation behind production-grade backend and frontend delivery.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="spotlight-card reveal-up">
-                            <span class="spotlight-icon"><i class="fa-solid fa-laptop-code"></i></span>
-                            <h3>Upskilling</h3>
-                            <p>Completed a 340-hour full-stack LAMP program at HTU in January 2023 to accelerate practical product delivery across the stack.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="spotlight-card reveal-up">
-                            <span class="spotlight-icon"><i class="fa-solid fa-gears"></i></span>
-                            <h3>Strengths</h3>
-                            <p>Strong ownership, fast debugging, clean backend design, and pragmatic UI delivery aligned with business priorities.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="achievements" class="section-pad section-alt">
-            <div class="container">
-                <div class="section-heading reveal-up">
-                    <span class="section-kicker">Key Achievements</span>
-                    <h2 class="section-title">Results delivered across performance, maintainability, and execution quality.</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6">
-                        <div class="achievement-card reveal-up">
-                            <h3>Operational Efficiency</h3>
-                            <p>Delivered a 20% improvement in workflow efficiency by refining interfaces, streamlining user journeys, and removing friction from day-to-day execution.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="achievement-card reveal-up">
-                            <h3>Performance Engineering</h3>
-                            <p>Improved application responsiveness and backend performance for business-critical features in environments where stability and speed directly affect execution quality.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="achievement-card reveal-up">
-                            <h3>Business Integrations</h3>
-                            <p>Delivered reliable integrations and service connections that improved data flow, reduced manual effort, and supported stronger cross-functional execution.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="achievement-card reveal-up">
-                            <h3>Delivery Reliability</h3>
-                            <p>Strengthened release confidence through RBAC, safer deployment practices, and workflows designed to reduce production risk.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="achievement-card reveal-up">
-                            <h3>Team Enablement</h3>
-                            <p>Improved engineering execution by coaching teammates on clean PHP architecture, leading retrospectives, and aligning sprint work with business priorities.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="achievement-card reveal-up">
-                            <h3>Execution Breadth</h3>
-                            <p>Delivered 16+ systems and features, including commerce, content, and automation products, using modular PHP, disciplined Git workflows, and production-ready UI implementation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="experience" class="section-pad section-dark">
-            <div class="container">
-                <div class="section-heading reveal-up">
-                    <span class="section-kicker">Experience</span>
-                    <h2 class="section-title">3+ years delivering software that improves product quality, performance, and execution.</h2>
-                </div>
-                <div class="timeline">
-                    <article class="timeline-entry reveal-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-card">
-                            <div class="timeline-top">
-                                <div>
-                                    <span class="timeline-range">Mar 2023 - Mar 2026</span>
-                                    <h3>Software Engineer</h3>
-                                    <p class="timeline-company">OpenSooq</p>
-                                </div>
-                            </div>
-                            <p>
-                                Contributed to business-critical engineering initiatives in a high-scale environment, delivering backend services and internal-facing interfaces that improved reliability, usability, and execution quality.
-                            </p>
-                            <div class="timeline-grid">
-                                <div>
-                                    <h4>Key Contributions</h4>
-                                    <ul>
-                                        <li>Built and maintained scalable PHP Yii2 features supporting business-critical platform capabilities.</li>
-                                        <li>Improved backend performance, code maintainability, and application responsiveness across core product areas.</li>
-                                        <li>Collaborated with cross-functional teams to deliver reliable software improvements aligned with business priorities.</li>
-                                        <li>Refined Bootstrap, PJAX, AJAX, CSS, and JavaScript interfaces to reduce friction and improve workflow efficiency by 20%.</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h4>Core Stack</h4>
-                                    <div class="chip-cloud">
-                                        <span>PHP</span>
-                                        <span>Yii2</span>
-                                        <span>MySQL</span>
-                                        <span>REST APIs</span>
-                                        <span>Performance</span>
-                                        <span>Maintainability</span>
-                                        <span>Bootstrap</span>
-                                        <span>JavaScript</span>
-                                        <span>PJAX</span>
-                                        <span>AJAX</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="timeline-entry reveal-up">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-card">
-                            <div class="timeline-top">
-                                <div>
-                                    <span class="timeline-range">Jul 2022 - Mar 2023</span>
-                                    <h3>Software Developer</h3>
-                                    <p class="timeline-company">Freelance / Personal Projects</p>
-                                </div>
-                            </div>
-                            <p>
-                                Delivered LAMP-based products including a POS system, CMS platform, and API-driven applications with secure authentication, inventory control, reporting, and responsive user experience.
-                            </p>
-                            <div class="chip-cloud">
-                                            <span>Laravel</span>
-                                            <span>PHP OOP</span>
-                                            <span>MySQL</span>
-                                            <span>Bootstrap</span>
-                                            <span>Git</span>
-                                            <span>Agile</span>
-                                            <span>JavaScript</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="section-pad">
-            <div class="container">
-                <div class="section-heading reveal-up">
-                    <span class="section-kicker">Capabilities</span>
-                    <h2 class="section-title">Core capabilities across backend delivery, interface quality, and operational scale.</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4">
-                        <div class="capability-card reveal-up">
-                            <div class="capability-icon"><i class="fa-solid fa-server"></i></div>
-                            <h3>Backend Engineering</h3>
-                            <p>Backend services, integrations, RBAC, and API-backed features designed for maintainability, reliability, and scale.</p>
-                            <div class="chip-cloud">
-                                <span>PHP</span>
-                                <span>Yii2</span>
-                                <span>Laravel</span>
-                                <span>REST APIs</span>
-                                <span>Webhooks</span>
-                                <span>Node.js</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="capability-card reveal-up">
-                            <div class="capability-icon"><i class="fa-solid fa-layer-group"></i></div>
-                            <h3>Frontend Delivery</h3>
-                            <p>Responsive interfaces and interaction flows that reduce friction, improve clarity, and support faster internal execution.</p>
-                            <div class="chip-cloud">
-                                <span>HTML5</span>
-                                <span>CSS3</span>
-                                <span>Bootstrap 5</span>
-                                <span>JavaScript</span>
-                                <span>jQuery</span>
-                                <span>AJAX</span>
-                                <span>PJAX</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="capability-card reveal-up">
-                            <div class="capability-icon"><i class="fa-solid fa-database"></i></div>
-                            <h3>Data & Operations</h3>
-                            <p>Performance optimization, analytics-friendly data handling, and disciplined execution inside cross-functional product teams.</p>
-                            <div class="chip-cloud">
-                                <span>MySQL</span>
-                                <span>SQL</span>
-                                <span>Performance</span>
-                                <span>Data Workflows</span>
-                                <span>Maintainability</span>
-                                <span>Linux</span>
-                                <span>Git/GitHub</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="section-pad section-alt">
-            <div class="container">
-                <div class="section-heading reveal-up d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3">
-                    <div>
-                        <span class="section-kicker">Projects</span>
-                        <h2 class="section-title mb-0">Selected work across scalable platforms, commerce systems, and content products.</h2>
-                    </div>
-                    <div class="carousel-controls">
-                        <button class="carousel-arrow" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev" aria-label="Previous project">
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </button>
-                        <button class="carousel-arrow" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next" aria-label="Next project">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div id="projectsCarousel" class="carousel slide project-carousel reveal-up" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row g-4 align-items-center">
-                                <div class="col-lg-6">
-                                    <div class="project-visual">
-                                        <img src="images/OS.png" alt="OpenSooq platform engineering project" loading="lazy" decoding="async">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="project-panel">
-                                        <span class="project-badge">Enterprise Internal Platform</span>
-                                        <h3>OpenSooq Platform Engineering</h3>
-                                        <p>
-                                            High-impact engineering work across scalable backend services and responsive internal-facing interfaces, focused on performance, maintainability, and dependable product execution.
-                                        </p>
-                                        <div class="chip-cloud">
-                                            <span>PHP</span>
-                                            <span>Yii2</span>
-                                            <span>REST APIs</span>
-                                            <span>Bootstrap</span>
-                                            <span>JavaScript</span>
-                                            <span>Performance</span>
-                                            <span>UX Refinement</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row g-4 align-items-center">
-                                <div class="col-lg-6">
-                                    <div class="project-visual">
-                                        <img src="images/pos.jpg" alt="POS system project" loading="lazy" decoding="async">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="project-panel">
-                                        <span class="project-badge">Commerce Platform</span>
-                                        <h3>Modern POS System</h3>
-                                        <p>
-                                            A point-of-sale platform with inventory workflows, reporting, and role-aware management screens, built for operational clarity, maintainable backend logic, and dependable day-to-day use.
-                                        </p>
-                                        <div class="chip-cloud">
-                                            <span>Laravel</span>
-                                            <span>PHP</span>
-                                            <span>JavaScript</span>
-                                            <span>MySQL</span>
-                                            <span>REST API</span>
-                                            <span>RBAC</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row g-4 align-items-center">
-                                <div class="col-lg-6">
-                                    <div class="project-visual">
-                                        <img src="images/cms.png" alt="CMS platform project" loading="lazy" decoding="async">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="project-panel">
-                                        <span class="project-badge">Content Platform</span>
-                                        <h3>Dynamic CMS Platform</h3>
-                                        <p>
-                                            A content management platform focused on dynamic page structures, media handling, and efficient editing flows, designed to stay lightweight, extensible, and easy to operate.
-                                        </p>
-                                        <div class="chip-cloud">
-                                            <span>PHP</span>
-                                            <span>MySQL</span>
-                                            <span>Bootstrap</span>
-                                            <span>jQuery</span>
-                                            <span>Responsive UI</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-indicators custom-indicators position-static mt-4 mb-0">
-                        <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="certificates" class="section-pad">
-            <div class="container">
-                <div class="section-heading reveal-up">
-                    <span class="section-kicker">Certificates</span>
-                    <h2 class="section-title">Training that reinforced practical engineering fundamentals and delivery discipline.</h2>
-                </div>
-                <div id="certificatesCarousel" class="carousel slide reveal-up" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="certificate-card">
-                                <div class="certificate-mark">
-                                    <i class="fa-solid fa-award"></i>
-                                </div>
-                                <div>
-                                    <span class="certificate-type">Program</span>
-                                    <h3>HTU Full-Stack Web Development Upskilling Program</h3>
-                                    <p>340-hour LAMP training completed in January 2023, focused on practical full-stack delivery across backend logic, databases, and frontend implementation.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="certificate-card">
-                                <div class="certificate-mark">
-                                    <i class="fa-solid fa-certificate"></i>
-                                </div>
-                                <div>
-                                    <span class="certificate-type">Udemy</span>
-                                    <h3>PHP & MySQL Certification Course for Beginners</h3>
-                                    <p>Structured training in PHP fundamentals, backend architecture, and MySQL aligned with practical project delivery.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="certificate-card">
-                                <div class="certificate-mark">
-                                    <i class="fa-solid fa-certificate"></i>
-                                </div>
-                                <div>
-                                    <span class="certificate-type">Udemy</span>
-                                    <h3>NodeJS - The Complete Guide</h3>
-                                    <p>Additional server-side JavaScript coursework expanding application architecture, API design, and backend problem solving.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center mt-4 gap-3 flex-wrap">
-                        <div class="chip-cloud">
-                            <span>JavaScript</span>
-                            <span>AJAX</span>
-                            <span>Bootstrap</span>
-                            <span>Yii</span>
-                            <span>Laravel</span>
-                            <span>Python</span>
-                            <span>Firebase</span>
-                        </div>
-                        <div class="carousel-controls">
-                            <button class="carousel-arrow" type="button" data-bs-target="#certificatesCarousel" data-bs-slide="prev" aria-label="Previous certificate">
-                                <i class="fa-solid fa-arrow-left"></i>
-                            </button>
-                            <button class="carousel-arrow" type="button" data-bs-target="#certificatesCarousel" data-bs-slide="next" aria-label="Next certificate">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section-pad section-dark">
-            <div class="container">
-                <div class="section-heading reveal-up">
-                    <span class="section-kicker">Contact</span>
-                    <h2 class="section-title">Available for roles where ownership, speed, and execution quality matter.</h2>
-                </div>
-                <div class="row g-4 align-items-stretch">
-                    <div class="col-lg-5">
-                        <div class="contact-panel reveal-up">
-                            <h3>Let’s connect</h3>
-                            <p>For engineering roles, freelance collaboration, or product work across backend systems and frontend delivery, use any of the direct channels below.</p>
-                            <div class="contact-list">
-                                <a href="mailto:abdulrahmanhusam11@gmail.com">
-                                    <i class="fa-solid fa-envelope"></i>
-                                    <span>abdulrahmanhusam11@gmail.com</span>
-                                </a>
-                                <a href="tel:+962781130568">
-                                    <i class="fa-solid fa-phone"></i>
-                                    <span>+962 78 1130568</span>
-                                </a>
-                                <a href="https://linkedin.com/in/abdulrahmanhasan" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    <span>linkedin.com/in/abdulrahmanhasan</span>
-                                </a>
-                                <a href="https://github.com/abdulrahmanhusam" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa-brands fa-github"></i>
-                                    <span>github.com/abdulrahmanhusam</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="contact-form-wrap reveal-up">
-                            <form id="contactForm" class="contact-form">
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name" autocomplete="name" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com" autocomplete="email" required>
-                                    </div>
-                                    <div class="col-12">
-                                        <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project." required></textarea>
-                                    </div>
-                                    <div class="col-12 d-flex flex-wrap gap-3 align-items-center">
-                                        <button type="submit" class="btn btn-brand">Send Message</button>
-                                        <span class="form-feedback" aria-live="polite"></span>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-            <p class="mb-0">© 2026 Abdulrahman Hasan.</p>
-            <div class="footer-links">
-                <a href="https://linkedin.com/in/abdulrahmanhasan" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/abdulrahmanhusam" target="_blank" rel="noopener noreferrer">GitHub</a>
-            </div>
-        </div>
-    </footer>
+<button id="menuToggle" class="menu-toggle magnetic" inert aria-hidden="true" aria-label="Open menu" aria-expanded="false" aria-controls="menuPanel">
+<span>
+</span>
+<span>
+</span>
+</button>
 </div>
+</header>
+<dialog id="menuPanel" class="menu-panel" aria-label="Site navigation">
+<div class="menu-content">
+<p class="eyebrow">Explore the portfolio</p>
+<nav aria-label="Expanded navigation">
+<a href="index.html" aria-current="page">
+<span>Home</span>
+<sup>01</sup>
+</a>
+<a href="work.html" >
+<span>Work</span>
+<sup>02</sup>
+</a>
+<a href="about.html" >
+<span>About</span>
+<sup>03</sup>
+</a>
+<a href="contact.html" >
+<span>Contact</span>
+<sup>04</sup>
+</a>
+</nav>
+<div class="menu-socials">
+<a href="https://linkedin.com/in/abdulrahmanhasan" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a href="https://github.com/abdulrahmanhusam" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+<button id="themeToggle" class="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false">◐</button>
+<button id="closeMenu">Close menu ↗</button>
+</div>
+<p class="menu-location">Amman, Jordan — Software Engineer</p>
+</div>
+</dialog>
+<main id="main">
+<section id="home" class="screenshot-hero" aria-label="Abdulrahman Hasan, Software Engineer">
+<div class="hero-stage" aria-hidden="true"><img class="hero-sculpture" src="images/hero-sculpture-1600.webp" srcset="images/hero-sculpture-900.webp 900w, images/hero-sculpture-1600.webp 1600w" sizes="(max-width: 700px) 110vw, 60vw" width="1600" height="2400" alt="" fetchpriority="high" decoding="async"></div>
+<div class="hero-location"><p>Located In<br>Jordan</p><span class="hero-globe" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="24" cy="24" r="18"/><ellipse cx="24" cy="24" rx="9" ry="18"/><path d="M6 24h36M9 15h30M9 33h30"/></svg></span></div>
+<div class="hero-profession"><span class="profession-arrow" aria-hidden="true">&#8600;</span><p>Software<br>Engineer</p></div>
+<h1 class="hero-name" aria-label="Abdulrahman Hasan"><span>Abdulrahman</span> <span>Hasan</span></h1>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/app.js"></script>
+<a class="hero-scroll" href="#about"><span>Scroll to explore</span><span aria-hidden="true">&#8595;</span></a>
+</section>
+<section id="about" class="section intro-section">
+<div class="container">
+<p class="eyebrow" data-reveal>01 / The person behind the code</p>
+<div class="intro-grid">
+<h2 class="statement" data-words>I build reliable software that scales cleanly across backend services, user-facing experiences, and business-critical platforms while improving performance, maintainability, and delivery speed.</h2>
+<div class="intro-aside">
+<p data-reveal>My background combines practical LAMP delivery, enterprise integrations, and a strong bias toward maintainability, measurable performance, and clear business value.</p>
+<a class="circle magnetic " href="about.html">
+<span>About me</span>
+<span class="arrow" aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section id="projects" class="section work-section">
+<div class="container">
+<div class="section-top" data-reveal>
+<p class="eyebrow">02 / Selected work</p>
+</div>
+<div class="work-intro" data-reveal>
+<h2>Systems built.<br>Problems solved.</h2>
+<p>Selected work across scalable platforms, commerce systems, and content products.</p>
+</div>
+<div class="project-grid" data-projects>
+<article class="project-card" data-reveal>
+<a class="project-link" href="project-opensooq.html" data-project-preview="images/OS.webp" data-preview-tone="tone-0">
+<div class="project-visual tone-0">
+<div class="parallax-media">
+<img src="images/OS.webp" width="1400" height="933" alt="OpenSooq platform engineering project" loading="lazy" decoding="async">
+</div>
+<span class="view-disc magnetic">
+<span>View project</span>
+<span aria-hidden="true">↗</span>
+</span>
+</div>
+<div class="project-caption">
+<span class="project-number">01</span>
+<h3>OpenSooq Platform Engineering</h3>
+<span class="project-category">Enterprise Internal Platform</span>
+<span class="project-arrow" aria-hidden="true">↗</span>
+</div>
+</a>
+<div class="project-support">
+<p>High-impact engineering work across scalable backend services and responsive internal-facing interfaces, focused on performance, maintainability, and dependable product execution.</p>
+<ul class="tags">
+<li>PHP</li>
+<li>Yii2</li>
+<li>REST APIs</li>
+<li>Bootstrap</li>
+<li>JavaScript</li>
+<li>Performance</li>
+<li>UX Refinement</li>
+</ul>
+</div>
+</article>
+<article class="project-card" data-reveal>
+<a class="project-link" href="project-pos.html" data-project-preview="images/pos.webp" data-preview-tone="tone-1">
+<div class="project-visual tone-1">
+<div class="parallax-media">
+<img src="images/pos.webp" width="1400" height="934" alt="POS system project" loading="lazy" decoding="async">
+</div>
+<span class="view-disc magnetic">
+<span>View project</span>
+<span aria-hidden="true">↗</span>
+</span>
+</div>
+<div class="project-caption">
+<span class="project-number">02</span>
+<h3>Modern POS System</h3>
+<span class="project-category">Commerce Platform</span>
+<span class="project-arrow" aria-hidden="true">↗</span>
+</div>
+</a>
+<div class="project-support">
+<p>A point-of-sale platform with inventory workflows, reporting, and role-aware management screens, built for operational clarity, maintainable backend logic, and dependable day-to-day use.</p>
+<ul class="tags">
+<li>Laravel</li>
+<li>PHP</li>
+<li>JavaScript</li>
+<li>MySQL</li>
+<li>REST API</li>
+<li>RBAC</li>
+</ul>
+</div>
+</article>
+<article class="project-card" data-reveal>
+<a class="project-link" href="project-cms.html" data-project-preview="images/cms.webp" data-preview-tone="tone-2">
+<div class="project-visual tone-2">
+<div class="parallax-media">
+<img src="images/cms.webp" width="1024" height="1024" alt="CMS platform project" loading="lazy" decoding="async">
+</div>
+<span class="view-disc magnetic">
+<span>View project</span>
+<span aria-hidden="true">↗</span>
+</span>
+</div>
+<div class="project-caption">
+<span class="project-number">03</span>
+<h3>Dynamic CMS Platform</h3>
+<span class="project-category">Content Platform</span>
+<span class="project-arrow" aria-hidden="true">↗</span>
+</div>
+</a>
+<div class="project-support">
+<p>A content management platform focused on dynamic page structures, media handling, and efficient editing flows, designed to stay lightweight, extensible, and easy to operate.</p>
+<ul class="tags">
+<li>PHP</li>
+<li>MySQL</li>
+<li>Bootstrap</li>
+<li>jQuery</li>
+<li>Responsive UI</li>
+</ul>
+</div>
+</article>
+</div>
+<div class="more-work">
+<a class="pill magnetic" href="work.html">
+<span>More work <sup>03</sup>
+</span>
+<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</section>
+<section id="skills" class="section">
+<div class="container">
+<div class="section-heading" data-reveal>
+<p class="eyebrow">03 / Engineering capabilities</p>
+<h2>Thoughtfully built.<br>Across the stack.</h2>
+</div>
+<div class="expertise-rows">
+<article class="expertise-row" data-reveal>
+<span class="row-number">01</span>
+<h3>Backend Engineering</h3>
+<div>
+<p>Backend services, integrations, RBAC, and API-backed features designed for maintainability, reliability, and scale.</p>
+<ul class="tags">
+<li>PHP</li>
+<li>Yii2</li>
+<li>Laravel</li>
+<li>REST APIs</li>
+<li>Webhooks</li>
+<li>Node.js</li>
+</ul>
+</div>
+<span class="row-arrow" aria-hidden="true">↗</span>
+</article>
+<article class="expertise-row" data-reveal>
+<span class="row-number">02</span>
+<h3>Frontend Delivery</h3>
+<div>
+<p>Responsive interfaces and interaction flows that reduce friction, improve clarity, and support faster internal execution.</p>
+<ul class="tags">
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Bootstrap 5</li>
+<li>JavaScript</li>
+<li>jQuery</li>
+<li>AJAX</li>
+<li>PJAX</li>
+</ul>
+</div>
+<span class="row-arrow" aria-hidden="true">↗</span>
+</article>
+<article class="expertise-row" data-reveal>
+<span class="row-number">03</span>
+<h3>Data &amp; Operations</h3>
+<div>
+<p>Performance optimization, analytics-friendly data handling, and disciplined execution inside cross-functional product teams.</p>
+<ul class="tags">
+<li>MySQL</li>
+<li>SQL</li>
+<li>Performance</li>
+<li>Data Workflows</li>
+<li>Maintainability</li>
+<li>Linux</li>
+<li>Git/GitHub</li>
+</ul>
+</div>
+<span class="row-arrow" aria-hidden="true">↗</span>
+</article>
+</div>
+</div>
+</section>
+<section id="experience" class="section background-section">
+<div class="container">
+<div class="section-heading" data-reveal>
+<p class="eyebrow">04 / Experience & background</p>
+<h2>Grounded in practice.<br>Focused on impact.</h2>
+</div>
+<article class="experience-row" data-reveal>
+<div>
+<p class="eyebrow">Mar 2023 - Now</p>
+<h3>OpenSooq</h3>
+<p class="job-title">Software Engineer</p>
+</div>
+<div>
+<p>Contributed to business-critical engineering initiatives in a high-scale environment, delivering backend services and internal-facing interfaces that improved reliability, usability, and execution quality.</p>
+<ul class="contributions">
+<li>Built and maintained scalable PHP Yii2 features supporting business-critical platform capabilities.</li>
+<li>Improved backend performance, code maintainability, and application responsiveness across core product areas.</li>
+<li>Collaborated with cross-functional teams to deliver reliable software improvements aligned with business priorities.</li>
+<li>Refined Bootstrap, PJAX, AJAX, CSS, and JavaScript interfaces to reduce friction and improve workflow efficiency by 20%.</li>
+</ul>
+<ul class="tags">
+<li>PHP</li>
+<li>Yii2</li>
+<li>MySQL</li>
+<li>REST APIs</li>
+<li>Performance</li>
+<li>Maintainability</li>
+<li>Bootstrap</li>
+<li>JavaScript</li>
+<li>PJAX</li>
+<li>AJAX</li>
+</ul>
+</div>
+</article>
+<article class="experience-row" data-reveal>
+<div>
+<p class="eyebrow">Jul 2022 - Mar 2023</p>
+<h3>Freelance / Personal Projects</h3>
+<p class="job-title">Software Developer</p>
+</div>
+<div>
+<p>Delivered LAMP-based products including a POS system, CMS platform, and API-driven applications with secure authentication, inventory control, reporting, and responsive user experience.</p>
+<ul class="tags">
+<li>Laravel</li>
+<li>PHP OOP</li>
+<li>MySQL</li>
+<li>Bootstrap</li>
+<li>Git</li>
+<li>Agile</li>
+<li>JavaScript</li>
+</ul>
+</div>
+</article>
+<div class="education-grid">
+<article data-reveal>
+<p class="eyebrow">Education</p>
+<p>Bachelor’s degree in Computer Science, providing the technical foundation behind production-grade backend and frontend delivery.</p>
+</article>
+<article data-reveal>
+<p class="eyebrow">Upskilling</p>
+<p>Completed a 340-hour full-stack LAMP program at HTU in January 2023 to accelerate practical product delivery across the stack.</p>
+</article>
+<article data-reveal>
+<p class="eyebrow">Strengths</p>
+<p>Strong ownership, fast debugging, clean backend design, and pragmatic UI delivery aligned with business priorities.</p>
+</article>
+</div>
+<div class="background-link">
+<a class="pill magnetic" href="about.html">
+<span>More about me</span>
+<span aria-hidden="true">↗</span>
+</a>
+</div>
+</div>
+</section>
+<section id="contact" class="contact-footer dark">
+<div class="container">
+<div class="contact-heading" data-reveal>
+<p class="eyebrow">Have something in mind?</p>
+<h2>Let’s work<br>
+<span class="contact-last">together<span class="accent">.</span>
+</span>
+</h2>
+</div>
+<div class="contact-rule" data-divider>
+<span class="rule-line" aria-hidden="true">
+</span>
+<a class="circle magnetic " href="contact.html">
+<span>Get in touch</span>
+<span class="arrow" aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="contact-bottom">
+<div class="contact-links">
+<a href="mailto:abdulrahman.h.hasan@gmail.com">abdulrahman.h.hasan@gmail.com</a>
+<a href="tel:+962781130568">+962 78 1130568</a>
+</div>
+<p>Open to engineering teams building scalable products and business-critical platforms.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer dark">
+<a class="footer-brand" href="index.html">ah.</a>
+<p>© 2026 Abdulrahman Hasan</p>
+<nav aria-label="Footer navigation">
+<a href="work.html">Work</a>
+<a href="about.html">About</a>
+<a href="https://linkedin.com/in/abdulrahmanhasan" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a href="https://github.com/abdulrahmanhusam" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+<a href="#top">Back to top ↑</a>
+</nav>
+</footer>
+<div class="transition-curtain" aria-hidden="true">
+<span>Abdulrahman Hasan</span>
+</div>
 </body>
 </html>

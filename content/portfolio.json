@@ -1,0 +1,254 @@
+{
+  "name": "Abdulrahman Hasan",
+  "title": "Software Engineer",
+  "location": "Amman, Jordan",
+  "email": "abdulrahman.h.hasan@gmail.com",
+  "profile_email": "Abdulrahman.H.Hasan@gmail.com",
+  "phone": "+962 78 1130568",
+  "tel": "+962781130568",
+  "linkedin": "https://linkedin.com/in/abdulrahmanhasan",
+  "github": "https://github.com/abdulrahmanhusam",
+  "bio": [
+    "I build reliable software that scales cleanly across backend services, user-facing experiences, and business-critical platforms while improving performance, maintainability, and delivery speed.",
+    "At OpenSooq, I contributed to business-critical engineering initiatives in a high-scale environment, building scalable backend services and responsive internal-facing interfaces while improving maintainability, performance, and workflow efficiency.",
+    "My background combines practical LAMP delivery, enterprise integrations, and a strong bias toward maintainability, measurable performance, and clear business value."
+  ],
+  "summary": "Software engineer with 3+ years of delivery across backend services, platform features, and responsive interfaces, with measurable impact in performance, maintainability, and workflow efficiency.",
+  "focus": "Scale, performance, and operational ownership. Backend services, product features, and responsive interfaces designed to improve usability, maintainability, and execution quality.",
+  "traits": [
+    "Arabic & English",
+    "Cross-Functional Delivery",
+    "Execution Under Scale",
+    "Ownership"
+  ],
+  "education": [
+    {
+      "title": "Education",
+      "description": "Bachelor’s degree in Computer Science, providing the technical foundation behind production-grade backend and frontend delivery."
+    },
+    {
+      "title": "Upskilling",
+      "description": "Completed a 340-hour full-stack LAMP program at HTU in January 2023 to accelerate practical product delivery across the stack."
+    },
+    {
+      "title": "Strengths",
+      "description": "Strong ownership, fast debugging, clean backend design, and pragmatic UI delivery aligned with business priorities."
+    }
+  ],
+  "metrics": [
+    {
+      "value": "3",
+      "label": "Years of professional engineering delivery"
+    },
+    {
+      "value": "16",
+      "label": "Products and platforms shipped"
+    },
+    {
+      "value": "20",
+      "label": "% reduction in employee handling time"
+    },
+    {
+      "value": "2",
+      "label": "Languages used in professional delivery"
+    },
+    {
+      "value": "340",
+      "label": "Hours of formal full-stack upskilling"
+    },
+    {
+      "value": "12",
+      "label": "Core technologies used in production"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "opensooq",
+      "name": "OpenSooq Platform Engineering",
+      "category": "Enterprise Internal Platform",
+      "description": "High-impact engineering work across scalable backend services and responsive internal-facing interfaces, focused on performance, maintainability, and dependable product execution.",
+      "technologies": [
+        "PHP",
+        "Yii2",
+        "REST APIs",
+        "Bootstrap",
+        "JavaScript",
+        "Performance",
+        "UX Refinement"
+      ],
+      "image": "images/OS.webp",
+      "width": "1400",
+      "height": "933",
+      "alt": "OpenSooq platform engineering project"
+    },
+    {
+      "slug": "pos",
+      "name": "Modern POS System",
+      "category": "Commerce Platform",
+      "description": "A point-of-sale platform with inventory workflows, reporting, and role-aware management screens, built for operational clarity, maintainable backend logic, and dependable day-to-day use.",
+      "technologies": [
+        "Laravel",
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "REST API",
+        "RBAC"
+      ],
+      "image": "images/pos.webp",
+      "width": "1400",
+      "height": "934",
+      "alt": "POS system project"
+    },
+    {
+      "slug": "cms",
+      "name": "Dynamic CMS Platform",
+      "category": "Content Platform",
+      "description": "A content management platform focused on dynamic page structures, media handling, and efficient editing flows, designed to stay lightweight, extensible, and easy to operate.",
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "jQuery",
+        "Responsive UI"
+      ],
+      "image": "images/cms.webp",
+      "width": "1024",
+      "height": "1024",
+      "alt": "CMS platform project"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "OpenSooq",
+      "dates": "Mar 2023 - Now",
+      "description": "Contributed to business-critical engineering initiatives in a high-scale environment, delivering backend services and internal-facing interfaces that improved reliability, usability, and execution quality.",
+      "contributions": [
+        "Built and maintained scalable PHP Yii2 features supporting business-critical platform capabilities.",
+        "Improved backend performance, code maintainability, and application responsiveness across core product areas.",
+        "Collaborated with cross-functional teams to deliver reliable software improvements aligned with business priorities.",
+        "Refined Bootstrap, PJAX, AJAX, CSS, and JavaScript interfaces to reduce friction and improve workflow efficiency by 20%."
+      ],
+      "technologies": [
+        "PHP",
+        "Yii2",
+        "MySQL",
+        "REST APIs",
+        "Performance",
+        "Maintainability",
+        "Bootstrap",
+        "JavaScript",
+        "PJAX",
+        "AJAX"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Freelance / Personal Projects",
+      "dates": "Jul 2022 - Mar 2023",
+      "description": "Delivered LAMP-based products including a POS system, CMS platform, and API-driven applications with secure authentication, inventory control, reporting, and responsive user experience.",
+      "contributions": [],
+      "technologies": [
+        "Laravel",
+        "PHP OOP",
+        "MySQL",
+        "Bootstrap",
+        "Git",
+        "Agile",
+        "JavaScript"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Backend Engineering",
+      "description": "Backend services, integrations, RBAC, and API-backed features designed for maintainability, reliability, and scale.",
+      "technologies": [
+        "PHP",
+        "Yii2",
+        "Laravel",
+        "REST APIs",
+        "Webhooks",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Frontend Delivery",
+      "description": "Responsive interfaces and interaction flows that reduce friction, improve clarity, and support faster internal execution.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap 5",
+        "JavaScript",
+        "jQuery",
+        "AJAX",
+        "PJAX"
+      ]
+    },
+    {
+      "title": "Data & Operations",
+      "description": "Performance optimization, analytics-friendly data handling, and disciplined execution inside cross-functional product teams.",
+      "technologies": [
+        "MySQL",
+        "SQL",
+        "Performance",
+        "Data Workflows",
+        "Maintainability",
+        "Linux",
+        "Git/GitHub"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Operational Efficiency",
+      "description": "Delivered a 20% improvement in workflow efficiency by refining interfaces, streamlining user journeys, and removing friction from day-to-day execution."
+    },
+    {
+      "title": "Performance Engineering",
+      "description": "Improved application responsiveness and backend performance for business-critical features in environments where stability and speed directly affect execution quality."
+    },
+    {
+      "title": "Business Integrations",
+      "description": "Delivered reliable integrations and service connections that improved data flow, reduced manual effort, and supported stronger cross-functional execution."
+    },
+    {
+      "title": "Delivery Reliability",
+      "description": "Strengthened release confidence through RBAC, safer deployment practices, and workflows designed to reduce production risk."
+    },
+    {
+      "title": "Team Enablement",
+      "description": "Improved engineering execution by coaching teammates on clean PHP architecture, leading retrospectives, and aligning sprint work with business priorities."
+    },
+    {
+      "title": "Execution Breadth",
+      "description": "Delivered 16+ systems and features, including commerce, content, and automation products, using modular PHP, disciplined Git workflows, and production-ready UI implementation."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "HTU Full-Stack Web Development Upskilling Program",
+      "provider": "Program",
+      "description": "340-hour LAMP training completed in January 2023, focused on practical full-stack delivery across backend logic, databases, and frontend implementation."
+    },
+    {
+      "title": "PHP & MySQL Certification Course for Beginners",
+      "provider": "Udemy",
+      "description": "Structured training in PHP fundamentals, backend architecture, and MySQL aligned with practical project delivery."
+    },
+    {
+      "title": "NodeJS - The Complete Guide",
+      "provider": "Udemy",
+      "description": "Additional server-side JavaScript coursework expanding application architecture, API design, and backend problem solving."
+    }
+  ],
+  "additional_technologies": [
+    "JavaScript",
+    "AJAX",
+    "Bootstrap",
+    "Yii",
+    "Laravel",
+    "Python",
+    "Firebase"
+  ]
+}
